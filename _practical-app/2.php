@@ -26,14 +26,23 @@
 
 		  Step4: Make a constant and set it to the value of PHP. and use an echo to print it out
 
-
-			
-
 			 */
 
-		
+		$number1 = 10;
+		$number2 = 20;
 
+		echo $number1 + $number2;
 
+		echo "<br>";
+
+		$arr1 = ['jake', 'samir', 'dudum'];
+		$arr2 = ['firstName' => 'jake', 'middleName' => 'samir', 'lastName' => 'dudum'];
+
+		define("LANGUAGE", "PHP");
+
+		echo LANGUAGE;
+
+	
 		?>
 
 	
