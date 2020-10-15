@@ -20,10 +20,20 @@
 
 	Step 2: Make a function that passes parameters and call it using parameter values
 
-
  */
 
-	
+ function calculate() {
+	 return 1 + 1;
+ }
+
+ echo calculate() . "<br>";
+
+ function add($num1, $num2) {
+	 return $num1 + $num2;
+ }
+
+ echo add(20, 7);
+
 ?>
 
 
